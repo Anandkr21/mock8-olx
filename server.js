@@ -1,6 +1,6 @@
 const express = require('express')
 const cors = require('cors')
-const { connection } = require('../backend/config/db')
+const { connection } = require('./config/db')
 const { userRouter } = require('./routes/userRoute')
 const { productRouter } = require('./routes/productRoute')
 
